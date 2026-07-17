@@ -29,9 +29,11 @@ for filename in os.listdir(crops_folder):
             continue
             
         # 2. Add a solid black border (gives OCR space to recognize characters near the edge)
+        
+        padding = 15
         padded = cv2.copyMakeBorder(
             img, 
-            top=10, bottom=10, left=10, right=10, 
+            top=padding, bottom=padding, left=padding, right=padding, 
             borderType=cv2.BORDER_CONSTANT, 
             value=[0, 0, 0]
         )
@@ -53,7 +55,7 @@ for filename in os.listdir(crops_folder):
         # and only the top 48% of the height (deletes all noise below the numbers)
         h_thresh, w_thresh = thresh.shape
         text_zone_h = int(h_thresh * 0.59)
-        text_zone_w = int(w_thresh * 0.7)
+        text_zone_w = int(w_thresh * 0.8)
         
         # Create a solid black canvas and copy only our strict text zone over
         cleaned_zone = np.zeros_like(thresh)

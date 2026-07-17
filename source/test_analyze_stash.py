@@ -76,7 +76,7 @@ if __name__ == "__main__":
         files = [os.path.join("images", f) for f in os.listdir("images") if f.endswith('.png')]
         if files:
             latest_screenshot = max(files, key=os.path.getctime)
-            scan_stash_for_divines(latest_screenshot, "divine_template.png")
+            scan_stash_for_divines(latest_screenshot, "templates/divine_template.png")
             ##scan_stash_for_divines(latest_screenshot, "exalted_template.png")
         else:
             print("No screenshots found in the 'images' folder. Take one using your hotkey script first!")

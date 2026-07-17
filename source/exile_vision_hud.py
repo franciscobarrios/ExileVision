@@ -16,24 +16,24 @@ LEAGUE = "Runes of Aldur"
 # Comprehensive PoE2 Currency Registry
 # Adjusted to look inside your new "templates/" folder
 CURRENCY_REGISTRY = {
-    "Chaos Orb": {"file": "templates/chaos_template.png", "base_value": 1.0},
-    "Greater Chaos Orb": {"file": "templates/greater_chaos_template.png", "base_value": 2.5},
-    "Perfect Chaos Orb": {"file": "templates/perfect_chaos_template.png", "base_value": 8.0},
+    "Chaos Orb": {"file": "template_currencies/chaos.png", "base_value": 1.0},
+    "Greater Chaos Orb": {"file": "template_currencies/greater_chaos.png", "base_value": 2.5},
+    "Perfect Chaos Orb": {"file": "template_currencies/perfect_chaos.png", "base_value": 8.0},
     
-    "Divine Orb": {"file": "templates/divine_template.png", "base_value": 7.4},
+    "Divine Orb": {"file": "template_currencies/divine.png", "base_value": 7.4},
     
-    "Exalted Orb": {"file": "templates/exalted_template.png", "base_value": 0.0174},  # Math: Divine / 424
-    "Greater Exalted Orb": {"file": "templates/greater_exalted_template.png", "base_value": 0.25},
-    "Perfect Exalted Orb": {"file": "templates/perfect_exalted_template.png", "base_value": 2.0},
+    "Exalted Orb": {"file": "template_currencies/exalted.png", "base_value": 0.0174},  # Math: Divine / 424
+    "Greater Exalted Orb": {"file": "template_currencies/greater_exalted.png", "base_value": 0.25},
+    "Perfect Exalted Orb": {"file": "template_currencies/perfect_exalted.png", "base_value": 2.0},
     
-    "Regal Orb": {"file": "templates/regal_template.png", "base_value": 0.5},
-    "Greater Regal Orb": {"file": "templates/greater_regal_template.png", "base_value": 1.5},
-    "Perfect Regal Orb": {"file": "templates/perfect_regal_template.png", "base_value": 5.0},
+    "Regal Orb": {"file": "template_currencies/regal.png", "base_value": 0.5},
+    "Greater Regal Orb": {"file": "template_currencies/greater_regal.png", "base_value": 1.5},
+    "Perfect Regal Orb": {"file": "template_currencies/perfect_regal.png", "base_value": 5.0},
     
-    "Orb of Annulment": {"file": "templates/annulment_template.png", "base_value": 4.0},
-    "Fracturing Orb": {"file": "templates/fracturing_template.png", "base_value": 150.0},
-    "Mirror of Kalandra": {"file": "templates/mirror_template.png", "base_value": 12000.0},
-    "Hinekora's Lock": {"file": "templates/hinekora_template.png", "base_value": 4000.0}
+    "Orb of Annulment": {"file": "template_currencies/annulment.png", "base_value": 4.0},
+    "Fracturing Orb": {"file": "template_currencies/fracturing.png", "base_value": 150.0},
+    "Mirror of Kalandra": {"file": "template_currencies/mirror.png", "base_value": 12000.0},
+    "Hinekora's Lock": {"file": "template_currencies/hinekora.png", "base_value": 4000.0}
 }
 
 class AnalysisThread(QThread):
