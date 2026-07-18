@@ -74,21 +74,3 @@ exalted-orb                      | 581   |    0.00233d |      1.355d
 Ensure your stash grid scanner has run and produced a valid stash_report.json file in your source directory. Then execute the calculation engine:
    ```bash
    python calculate_wealth.py```
-
-## 🗺️ Project Roadmap
-
-<Sequence>
-{/* Reason: Order matters for developmental progression, tracking current pipeline progress before hitting the front-end overlay UI. */}
-  <Step title="Core Math Engine" subtitle="Completed ✓">
-    Build a reliable JSON parsing engine with dynamic live poe.ninja rate integration.
-  </Step>
-  <Step title="Data Normalization" subtitle="Completed ✓">
-    Resolve API string mismatches and baseline currency anchors ($1\text{c} = 1\text{c}$, $1\text{d} = 1\text{d}$).
-  </Step>
-  <Step title="Stash Grid Scanner Pipeline" subtitle="In Progress">
-    Finalize seamless automation of player stash file generation using window capturing.
-  </Step>
-  <Step title="In-Game Overlay UI" subtitle="Planned">
-    Develop a lightweight, hardware-accelerated translucent GUI overlay (**PyQt6**) that tracks farming efficiency on a global hotkey trigger (`Ctrl + Space`) without needing to Alt-Tab.
-  </Step>
-</Sequence>
