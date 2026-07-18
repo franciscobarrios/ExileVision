@@ -64,21 +64,17 @@ exalted-orb                      | 581   |    0.00233d |      1.355d
 1. **Clone the repository and navigate to the project root:**
    ```bash
    git clone [https://github.com/yourusername/wreaclast-currency.git](https://github.com/yourusername/wreaclast-currency.git)
-   cd wreaclast-currency/source
-   ```
+   cd wreaclast-currency/source```
 
-2. **Install the required Python packages:
+2. **Install the required Python packages:**
    ```bash
-   pip install -r requirements.txt
+   pip install -r requirements.txt```
    
-
 ## Running the App
 Ensure your stash grid scanner has run and produced a valid stash_report.json file in your source directory. Then execute the calculation engine:
    ```bash
-   python calculate_wealth.py
+   python calculate_wealth.py```
 
----
-```
 ## 🗺️ Project Roadmap
 
 <Sequence>
