@@ -77,3 +77,16 @@ Ensure your stash grid scanner has run and produced a valid stash_report.json fi
    ```bash
    python calculate_wealth.py
   ```
+
+
+---
+
+## 🚀 Support the Project
+
+> **Do you want to be a super premium user and access all the available features?** 
+> 
+> Well... you can't! There are no premium features—everything is free and open-source. But if you find this tool helpful, you can still buy me a coffee! ☕
+
+<a href="https://www.buymeacoffee.com/azhagthott" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="42px">
+</a>
